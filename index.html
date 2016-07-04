@@ -4,8 +4,31 @@
 	<meta charset="UTF-8">
 	<title>HangMan | Ai </title>
 	<link rel="shortcut icon" href="hangman.png">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+	<h1>HANGMAN GAME</h1>
+	<img src="gallow.png">
+
+	<div id="word"></div>
+
+	<div class="game">
 	
+		<div class="player"></div>
+	<input id="text" type="text" name="letter"> <!--document.getElementByName('letter').value; Transformar las letras siempre en mayúscula-->	
+				
+ 	<input id="intro" type="button" value="intro" name="intro">			
+
+ 	<div class="info">
+        <h4 class="text-center">LETRAS</h4>
+            <div id="letras"></div>                
+    </div>	
+
+	</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+	<script src="hangman.js"></script>
 </body>
 </html>
